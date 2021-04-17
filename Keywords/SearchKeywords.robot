@@ -5,6 +5,7 @@ Library           Collections
 Library           DateTime
 Library           String
 Resource          ../Objects/Locators/SearchLocators.robot
+Resource          ../TestData/SearchData.robot
 
 *** Keywords ***
 Search a Keyword

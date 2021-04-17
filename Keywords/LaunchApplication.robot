@@ -1,3 +1,6 @@
+*** Settings ***
+Resource          ../TestData/TestConfig.robot
+
 *** Keywords ***
 Launch Application
     Open Browser    ${AppURL}    ${Browser}

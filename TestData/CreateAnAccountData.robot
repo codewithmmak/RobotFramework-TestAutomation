@@ -1,5 +1,4 @@
 *** Variables ***
-${SearchKeyword}    Casual Dresses
 ${FirstNameData}    Ronald
 ${LastNameData}    Austin
 ${PasswordData}    Test@123

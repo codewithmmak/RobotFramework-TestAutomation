@@ -5,6 +5,7 @@ Library           Collections
 Library           DateTime
 Library           String
 Resource          ../Objects/Locators/CreateAnAccountLocators.robot
+Resource          ../TestData/CreateAnAccountData.robot
 
 *** Keywords ***
 Click SignIn button

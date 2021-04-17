@@ -39,9 +39,10 @@ This is sample Test Automation framework is designed using Robot Framework. And 
 3. Type: `ride.py`
 4. Hit Enter key
 
-### How to Generate HTML Report
-* Open Terminal and enter command: `npm run create:html:report`
-* Go to `test-report` folder and you will find the html report
+### How to view HTML Report
+* Go to root directory of your project and open `report.html`
+
+![Robot Test Automation Framework Test Result](./Images/report.PNG?raw=true "Robot Test Automation Framework HTML Test Report")
 
 ### How to upgrade to latest packages version
 * Open Terminal and run command `pip install --upgrade -r requirements.txt`

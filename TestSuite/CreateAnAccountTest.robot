@@ -3,8 +3,6 @@ Suite Setup
 Suite Teardown
 Resource          ../Keywords/LaunchApplication.robot
 Resource          ../Keywords/CreateAnAccountKeywords.robot
-Resource          ../TestData/TestConfig.robot
-Resource          ../TestData/TestData.robot
 
 *** Test Cases ***
 CreateAnAccountTest
