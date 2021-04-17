@@ -1,3 +1,11 @@
+*** Settings ***
+Library           Selenium2Library
+Library           OperatingSystem
+Library           Collections
+Library           DateTime
+Library           String
+Resource          ../Objects/Locators/CreateAnAccountLocators.robot
+
 *** Keywords ***
 Click SignIn button
     Wait Until Element Is Visible    ${SignInButton}
@@ -12,7 +20,9 @@ Click Create An Account button
     Click Element    ${CreateAnAccountButton}
 
 Enter Your Personal Information
+    Wait Until Page Contains Element    ${Title}
     Click Element    ${Title}
+    Wait Until Page Contains Element    ${FirstName} 
     Input Text    ${FirstName}    ${FirstNameData}
     Input Text    ${LastName}    ${LastNameData}
     Input Text    ${Password}    ${PasswordData}

@@ -2,7 +2,7 @@
 ${SignInButton}    //a[@title='Log in to your customer account']
 ${EmailAddress}    //input[@name='email_create']
 ${CreateAnAccountButton}    //button[@id='SubmitCreate']
-${Title}          //span/input[@name='id_gender1']
+${Title}          //input[@id='id_gender1']
 ${FirstName}      //input[@name='customer_firstname']
 ${LastName}       //input[@name='customer_lastname']
 ${Password}       //input[@id='passwd']

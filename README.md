@@ -25,9 +25,13 @@ This is sample Test Automation framework is designed using Robot Framework. And 
     Unzip and save it in any location, but preferably in root directory of the framework.
     Add Environment Varable to System Variable path, in my case its `D:\MyWorkSpace\Drivers`
 
-### How to run Robot Script
+### How to run Robot Test Suite
 1. From CLI, go to the directory where you have saved your test case file.
-2. Then execute the following command `python -m robot TestSuite/TestSuite.robot`
+2. Then execute the following command `python -m robot TestSuite`
+
+### How to run single Robot Script
+1. From CLI, go to the directory where you have saved your test case file.
+2. Then execute the following command `python -m robot TestSuite/CreateAnAccountTest.robot`
 
 ### How to open RIDE
 1. Open Command Prompt
