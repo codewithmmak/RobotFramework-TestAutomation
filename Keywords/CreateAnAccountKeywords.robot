@@ -26,6 +26,7 @@ Enter Your Personal Information
     Input Text    ${FirstName}    ${FirstNameData}
     Input Text    ${LastName}    ${LastNameData}
     Input Text    ${Password}    ${PasswordData}
+    
     Click Element    ${NewsLetterSignup}
     Click Element    ${SpecialOffer}
 
@@ -36,6 +37,7 @@ Enter Your Address
     Input Text    ${Address}    ${AddressData}
     Input Text    ${Address2}    ${Address2Data}
     Input Text    ${City}    ${CityData}
+    Select From List By Value   ${State}      ${StateData}
     Input Text    ${ZipCode}    ${ZipCodeData}
     Input Text    ${AdditionalInformation}    ${AdditionalInformationData}
     Input Text    ${HomePhone}    ${HomePhoneData}
