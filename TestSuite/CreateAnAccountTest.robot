@@ -4,6 +4,9 @@ Suite Teardown
 Resource          ../Keywords/LaunchApplication.robot
 Resource          ../Keywords/CreateAnAccountKeywords.robot
 
+*** Settings ***
+Test Teardown    Clear SUT To Initial State
+
 *** Test Cases ***
 CreateAnAccountTest
     Launch Application
@@ -13,4 +16,4 @@ CreateAnAccountTest
     Enter Your Personal Information
     Enter Your Address
     Click Register button
-    [Teardown]    Clear SUT To Initial State
+    # [Teardown]    Clear SUT To Initial State
