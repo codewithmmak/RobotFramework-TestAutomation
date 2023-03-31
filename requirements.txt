@@ -12,5 +12,5 @@ robotframework-seleniumlibrary==6.0.0
 selenium==4.8.2
 soupsieve==2.4
 tqdm==4.65.0
-urllib3==1.26.14
+urllib3==1.26.15
 webdrivermanager==0.10.0
