@@ -10,7 +10,7 @@ robotframework-pythonlibcore==4.1.2
 robotframework-selenium2library==3.0.0
 robotframework-seleniumlibrary==6.0.0
 selenium==4.9.1
-soupsieve==2.4
+soupsieve==2.4.1
 tqdm==4.65.0
 urllib3==1.26.15
 webdrivermanager==0.10.0
