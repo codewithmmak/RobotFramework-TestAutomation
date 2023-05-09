@@ -4,7 +4,7 @@ certifi==2023.5.7
 chardet==5.1.0
 idna==3.4
 lxml==4.9.2
-requests==2.28.2
+requests==2.30.0
 robotframework==6.0.2
 robotframework-pythonlibcore==4.1.2
 robotframework-selenium2library==3.0.0
