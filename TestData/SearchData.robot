@@ -1,2 +1,0 @@
-*** Variables ***
-${SearchKeyword}    Casual Dresses

@@ -1,3 +1,8 @@
 *** Variables ***
-${AppURL}         http://automationpractice.com/index.php
-${Browser}        Chrome
+${AppURL}             https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+${Browser}            Chrome
+${IMPLICIT_TIMEOUT}   10s
+${EXPLICIT_TIMEOUT}   20s
+${RETRY_COUNT}        3
+${RETRY_INTERVAL}     1s
+${HEADLESS}           False

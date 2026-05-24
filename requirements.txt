@@ -1,16 +1,22 @@
-appdirs==1.4.4
-beautifulsoup4==4.12.2
-certifi==2023.5.7
-chardet==5.1.0
-idna==3.4
-lxml==4.9.2
-requests==2.30.0
+appdirs>=1.4.4
+beautifulsoup4>=4.12.2
+certifi>=2023.5.7
+chardet>=5.1.0
+idna>=3.4
+requests>=2.30.0
+PyYAML>=6.0.1
 robotframework==6.0.2
-robotframework-pythonlibcore==4.1.2
-robotframework-selenium2library==3.0.0
-robotframework-seleniumlibrary==6.1.0
-selenium==4.9.1
-soupsieve==2.4.1
-tqdm==4.65.0
-urllib3==1.26.15
-webdrivermanager==0.10.0
+robotframework-pythonlibcore>=4.1.2
+robotframework-seleniumlibrary>=6.8.0
+selenium>=4.24.0
+soupsieve>=2.4.1
+tqdm>=4.65.0
+urllib3>=1.26.15
+webdriver-manager>=4.0.1
+# Parallel execution
+robotframework-pabot>=2.18.0
+# Linting
+robotframework-robocop>=4.1.0
+pre-commit>=3.7.0
+# Allure reporting
+allure-robotframework>=2.13.2
