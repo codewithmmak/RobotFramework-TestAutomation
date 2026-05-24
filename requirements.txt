@@ -5,7 +5,7 @@ chardet>=5.1.0
 idna>=3.4
 requests>=2.30.0
 PyYAML>=6.0.1
-robotframework==6.0.2
+robotframework==7.4.2
 robotframework-pythonlibcore>=4.1.2
 robotframework-seleniumlibrary>=6.8.0
 selenium>=4.24.0
